@@ -1,0 +1,103 @@
+<html>
+<form action="file:///E:/edufullstacktraining/HTML%20program/frontendproject/login.html" method="POST">
+<head>
+<title>Musify-sig-up</title>
+<style>
+body {
+  font-family: Arial;
+  color: white;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: black;
+}
+
+.right {
+  right: 0;
+  background-color: green;
+}
+
+.centered 
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 20px;
+}
+
+.centered img {
+  width: 250px;
+  height: 250px
+  border-radius: 255%;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 230px;
+  height:35px;
+  background-color:white;
+  color: black;
+  font-size:15px;
+  text-align:left
+  border-radius:35px;
+  padding:0px 5px;
+  position: absolute;
+  z-index:0;
+  top: -5px;
+  left:103%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+</style>
+</head>
+<body>
+<div class="split left">
+<div class="centerd">
+<h2 style="font-size:35px;">sign-up to play music<br>on your devices</h2>
+<div class="centered img">
+<img src="E:\edufullstacktraining\HTML program\frontendproject\play2.jpg" alt="musify logo">
+</div>
+</div>
+</div>
+<div class="split right">
+<div class="centered">
+Name:<br>
+<input type="text" name="Name" placeholder="Name"> <span class="tooltiptext"></span><br><br>
+Email:<br>
+<input type="text" name="Email" placeholder="Mail id"><br><br>
+<div class="tooltip">
+Password:<br>
+<input type="password" id="password" name="password" placeholder="Password" ><span class="tooltiptext" style="border-radius:20px;">password must have atleast 6 characters</span><br><br>
+</div>
+<div class="tooltip">
+confirm password:<br>
+<input type="Password" name="username" placeholder="Confirm Password"><span class="tooltiptext" style="border-radius:20px;padding:5px;height:20px;">password must be same as above</span><br><br>
+</div>
+<center>Mobile number:</center>
+<input type="text" placeholder="Mobile Number"><br><br>
+<button style="background-color:white;color:black;border:3px white groove;
+  border-radius:5px;">sign-up</button>
+</div>
+</div></body>
+</center>
+</form>
+</html>
